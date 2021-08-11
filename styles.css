@@ -1,0 +1,111 @@
+h1,h5{
+    font-family: BitstreamVeraSansRoman,Arial,sans-serif;
+}
+
+
+body{
+background-color: #dad2D8;
+
+}
+
+
+.navbar{
+    background-color: rgb(17, 68, 51);
+    padding-bottom: 0rem;
+    
+    
+}
+
+#navbar{
+    z-index: 999;
+}
+
+.homeCards{
+    background-color: #dad2D8;
+
+   /* font-size: 2vw;*/
+}
+
+
+
+#homeText{
+    margin-top:100px;
+}
+
+#logo{
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#mainContainer{
+    z-index: 0;
+}
+
+#mobileImage{
+    margin-top: -35px;
+}
+
+.fade-in-image {
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto; 
+    margin-top: 25px;
+    
+}
+
+#slide {
+    position: relative;
+    left: -430px;
+    width: auto;
+    height: 35px;
+    
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.btn{
+  margin-bottom: 20px;
+}

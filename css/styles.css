@@ -1,0 +1,296 @@
+h1,h5{
+    font-family: BitstreamVeraSansRoman,Arial,sans-serif;
+}
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: white;
+    text-decoration: none;    
+}
+
+body{
+background-color: #dad2D8;
+margin-bottom: 60px;
+
+}
+/*
+.angled-div {
+    background-color: rgb(188, 190, 190);
+    height: 300px;
+    position: relative;
+    opacity: 70%;
+    
+    
+
+}
+*/
+
+section{
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    
+    background: rgb(207, 207, 203);
+    box-shadow: 0 10px 30px rgba(0,0,0, .2);
+    display: flex;
+    margin-top: -6vw;
+
+}
+
+.content-a{
+    width: calc(50% - 50px);
+    height: 100%;
+    background: rgb(190, 231, 8);
+    box-sizing: border-box;
+    padding: 30px 50px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 25px;
+    
+}
+
+
+#home-img{
+    width: 100%;
+    margin-top: 1vw;
+    box-shadow: 0 10px 30px rgba(0,0,0, .4);
+        
+    
+}
+
+.navbar{
+    background-color: rgb(78, 169, 185);
+    padding-bottom: 0rem;
+    
+    
+}
+
+#navbar{
+    z-index: 999;
+}
+
+.homeCards{
+    background-color: #dad2D8;
+
+   /* font-size: 2vw;*/
+}
+
+#homeText{
+    margin-top:125px;
+}
+#homeDiv{
+    padding-bottom: 0px;
+    
+    
+    
+}
+#logo{
+    height: 55px;
+    margin-bottom: 5px;
+    margin-right: 100px;
+}
+
+#mainContainer{
+    z-index: 0;
+}
+
+#mobileImage{
+    margin-top: -35px;
+    margin-bottom: 20px;
+
+}
+.heading{
+    margin-top: 20px;
+}
+.fade-in-image {
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+  .wrapper {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto; 
+    margin-top: 25px;
+    
+}
+#aboutmeImg{
+    width: 100%;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.caption{
+    position: relative;
+    top: 45%;
+    left:0;
+    width: 100%;
+}
+.text-over-img { 
+	z-index:1; 
+	
+    color: white;
+    font-size: 2.2vw; 
+} 
+.overlay-img {
+    /*background-color: rgb(12, 12, 12);*/
+    opacity: 90%;
+    margin-top: -10vw;
+    margin-bottom: 100px;
+    height: 5vw; 
+    position: relative;
+    
+    
+    
+}
+#slide {
+    position: relative;
+    left: -430px;
+    width: auto;
+    height: 35px;
+    
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+
+.wrapper2 {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto; 
+    margin-top: 25px;
+
+    
+}
+
+.footer{
+    background-color: rgb(31, 36, 32);
+    bottom:0;
+    position: absolute;
+    width: 100%;
+    
+    
+    
+}
+
+li{
+    display: inline;
+    margin-right: 5px;
+}
+.footer-text{
+    color: beige;
+    margin-top: 5px;
+    
+}
+.aboutMeContent{
+    margin-bottom: 55px;
+}
+#homeText{ 
+    position: relative;
+    right: -100px;
+    width: auto;
+    height: 35px;
+    
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+.videos{
+    box-shadow: 0 10px 30px rgba(0,0,0, .4); 
+}
+
+@-webkit-keyframes slide2 {
+    100% { right: 0; }
+}
+
+@keyframes slide2 {
+    100% { right: 0; }
+}
+
+.footer-icons{
+    color: #dad2D8;
+        
+}
+.footer-icons-div{
+    margin-top: 4px;
+    /*padding-left:38px;*/
+}
+.footer-icons:hover, .footer-icons:focus {
+    color: white;
+}
+.aboutme-social{
+    color:black
+}
+.aboutme-social:hover, aboutme-social:focus {
+    color: white;
+    text-shadow: 0 10px 30px rgba(0,0,0, .8); ;
+}
+#contact-me-img{
+    border-radius: 50%;
+    width: 80%;
+    transition: transform 1s;
+}
+
+#contact-me-img:hover{
+    transform: scale(1.1);
+}
+#back-div {
+    z-index: -5;
+    background-color: rgb(205, 207, 207, 0.6);
+    box-shadow: 0 10px 30px rgba(0,0,0, .2);
+    
+}
+.work-link {
+    color: black;
+}
